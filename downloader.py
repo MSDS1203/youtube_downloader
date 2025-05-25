@@ -25,7 +25,7 @@ link = StringVar()
 download_path = StringVar()
 
 def functionality():
-    title_label = Label(root, text = 'Youtube Video Downloader', padx=10, pady=15, font="Times 14", bg="#705e82", fg='black')
+    title_label = Label(root, text = 'Youtube Video Downloader', padx=10, pady=15, font="Times 14", bg="#7ca1ff", fg='black')
     title_label.grid(row=1,column=1,padx=15,pady=15,columnspan=3)
     link_label = Label(root, text="Youtube URl: ", bg="#7874ed")
     link_label.grid(row=2,column=0, padx=15, pady=15)

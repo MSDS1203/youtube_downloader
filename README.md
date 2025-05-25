@@ -2,7 +2,7 @@
 
 ### Dependencies
 The following commands must be used in the installation process. 
-- pip install pytube
+- pip install yt-dlp
 - choco install ffmpeg
     - (for higher quality videos, otherwise you will experience issues with merging)
 
