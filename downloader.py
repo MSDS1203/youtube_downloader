@@ -46,10 +46,11 @@ def Download_Video():
         return
 
     ydl_opts = {
-        'outtmpl': f'{download_folder}/%(title)s.%(ext)s',
-        'format': 'bestvideo+bestaudio/best',
-        'merge_output_format': 'mp4',
+    'format': 'bestvideo+bestaudio[ext=m4a]/best[ext=m4a]',
+    'merge_output_format': 'mp4',
+    'outtmpl': f'{download_folder}/%(title)s.%(ext)s'
     }
+
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
